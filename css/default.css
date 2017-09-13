@@ -1,0 +1,88 @@
+/* Embedded Fonts */
+@font-face {
+
+	font-family: bauhaus;
+	src:url(../fonts/bauhaus.ttf);
+
+}
+
+
+
+
+
+/* Container Items */
+
+html,body {
+	
+	height:100%;
+	width:100%;
+
+}
+
+#cover {
+
+	width:100%;
+	height:100%;
+	background: url("../images/cover.jpg") no-repeat center fixed;
+	/*background-size:100%; */
+	-webkit-background-size: cover;
+
+
+
+}
+
+#container {
+
+}
+
+
+
+/* Paragraph Styles */
+
+.title {
+
+	font-family:Roboto, serif;
+	font-size: 4em;
+	color:white;
+	padding:15px;
+	position:relative;
+
+
+}
+
+.author {
+
+	width:100%;
+	height:100%;
+	background: url("../images/dewaal.jpg") no-repeat center; 
+	
+
+}
+
+
+.text {
+
+
+	position:relative;
+	left:50%;
+	margin-left:-375px;
+	text-align: center;
+	width:750px;
+	font-family: Roboto Slab, sans-serif;
+	padding-top: 20px;
+	
+
+
+	
+
+
+
+
+}
+
+.italic {
+	
+	font-style: italic;
+
+
+}
